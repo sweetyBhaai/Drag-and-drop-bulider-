@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+#sidebar {
+    background: #f4f4f4;
+    padding: 10px;
+    width: 200px;
+    display: inline-block;
+}
+
+.draggable {
+    margin: 5px;
+    padding: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: grab;
+}
+
+#canvas {
+    border: 2px dashed #333;
+    width: 60%;
+    height: 400px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+}
