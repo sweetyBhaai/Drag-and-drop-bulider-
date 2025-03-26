@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drag & Drop Website Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Drag & Drop Website Builder</h1>
+    
+    <div id="sidebar">
+        <button class="draggable" draggable="true">Text</button>
+        <button class="draggable" draggable="true">Button</button>
+        <button class="draggable" draggable="true">Image</button>
+    </div>
+
+    <div id="canvas" ondrop="drop(event)" ondragover="allowDrop(event)">
+        <p>Drop elements here</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
